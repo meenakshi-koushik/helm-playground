@@ -17,13 +17,20 @@ Below is a graded list of problem statements with some hints to try out on a k8s
 
 ### Upgrade and rollback
 1. What versions of nginx chart are avaiable in the bitnami repo ?
-2. install the version 9.6.0 of nginx chart. What is the container  image version ?
-3. Edit the container image version using kubectl
-4. Use helm to rollback the changes
-5. update the release to the latest version
+2. install the version 9.6.0 of nginx chart. What is the container image version ?
+3. update the release to the latest version
 6. list the revisions of the nginx release
+4. Use helm to rollback the changes
+5. Edit the container image version using kubectl
+4. Use helm to rollback the changes
+
+Bonus: were there any resources that didn't get destroyed/ recreated during the rollback/ upgrade ?
 
 ### Customizing behaviour through values.yaml
+1. install nginx chart with a replica count for the deployment set to 3 and debug mode enabled
+2. setup nginx to serve static content from one of the following:
+    https://github.com/cloudacademy/static-website-example
+    https://github.com/mdn/beginner-html-site-styled
 
 ### Dependencies and sub-charts
 1. Create a chart that installs 
