@@ -2,7 +2,7 @@
 
 Learn helm by completing challenges!
 
-Below is a graded list of problem statements with some hints to try out on a k8s cluster.
+Below is a graded list of problem statements with some hints to try out on a k8s cluster. Refer [Resources](resources.md) for some handy links with information helpful for solving these challenges.
 
 ### Ensure access to cluster and helm
 1. Identify version of `kubectl` installed on your system
