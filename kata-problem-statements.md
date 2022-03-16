@@ -64,10 +64,11 @@ Your goal is to setup a cluster with development infrastructure for a new projec
 1. Create a chart that installs the following
 
     1. gitea with mariadb as backend database, for source control. Make sure the application is accessible via a service of type LoadBalancer.
+    1. jenkins for CI
     1. ghost for project blog
     1. nginx for landing page. 
     1. configure nginx to serve a static page, 
-    1. optionally configure nginx landing page to connect to gitea service and ghost
+    1. optionally configure nginx landing page to connect to gitea, jenkins and ghost
 ### User Permisions (Role-based access control)
 
 TBD
