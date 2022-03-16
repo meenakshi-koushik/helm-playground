@@ -4,8 +4,14 @@ Learn helm by completing challenges!
 
 Below is a graded list of problem statements with some hints to try out on a k8s cluster.
 
+### Ensure access to cluster and helm
+1. Identify version of `kubectl` installed on your system
+1. Identify version of `helm` installed on your system
+2. Are there any helm "releases" already present in the cluster ?
+3. What namespace are you using for your deployments ? Are there any pods running in this namespace ?
+4. Is Lens able to connect to the cluster and display resources in the selected namespace ?
 ### Install and remove releases
-1. Identify version of helm installed on your system
+
 2. List repositories configured on your helm installation.
 3. Add the bitnami charts repository (https://charts.bitnami.com/bitnami)
 4. Install nginx helm chart from the bitnami repo. Keep in mind the namespace to install to.
@@ -23,6 +29,7 @@ Below is a graded list of problem statements with some hints to try out on a k8s
 4. Use helm to rollback the changes
 5. Edit the container image version using kubectl
 4. Use helm to rollback the changes
+6. clean-up the nginx installation
 
 Bonus: were there any resources that didn't get destroyed/ recreated during the rollback/ upgrade ?
 
