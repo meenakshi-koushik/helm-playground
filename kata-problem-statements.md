@@ -29,10 +29,15 @@ Bonus: were there any resources that didn't get destroyed/ recreated during the 
 ### Customizing behaviour through values.yaml
 1. install nginx chart with a replica count for the deployment set to 3 and debug mode enabled
 2. setup nginx to serve static content from one of the following:
-    https://github.com/cloudacademy/static-website-example
-    https://github.com/mdn/beginner-html-site-styled
+
+  *  https://github.com/cloudacademy/static-website-example
+  *  https://github.com/mdn/beginner-html-site-styled
 
 ### Dependencies and sub-charts
-1. Create a chart that installs 
+Your goal is to setup a 
+1. Create a chart that installs the following
 
+    1. gitea with mariadb as backend database, for source control
+    1. wordpress for project blog
+    1. nginx for landing page. setup a static page with links to wordpress service and gitea (using the static site config map customization)
 ### User Permisions (Role-based access control)
