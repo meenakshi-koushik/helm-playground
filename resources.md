@@ -1,3 +1,6 @@
+# Useful links for k8s, kubectl
+* kubectl CLI [documentation](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
+* kubernetes [docs](https://kubernetes.io/docs/home/)
 # Resources to learn helm
 
 * Helm [docs](https://docs.helm.sh/docs/), especially the [helm cli](https://docs.helm.sh/docs/helm/helm/)
